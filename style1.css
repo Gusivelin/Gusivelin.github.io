@@ -1,0 +1,312 @@
+.difun{
+    background:linear-gradient(white,#F5EB0F) ;
+    height: 250vh;
+    background-size:cover;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .search-container{
+    border-radius: 10px;
+    height: 30px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    width: 290px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .search-input {
+    flex: 1;
+    border: none;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .search-button img {
+    width: 40px;
+    height: 20px;
+  }
+  .image-link {
+    text-decoration: none;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    left: 50px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-container:hover .image-overlay {
+    opacity: 1;
+  }
+  
+  .uni-link {
+    text-decoration: none;
+    position: absolute;
+    top:77%; /* para decir cuento baja*/
+  }
+  
+  .image_uni-container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    left: 3%;
+  }
+  
+  .image_uni-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    left:70px;
+  }
+  
+  .image-uni-overlay {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-container:hover .image-overlay {
+    opacity: 1;
+  }
+  
+  .container {
+  position: absolute;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+   left:480px;
+  
+  }
+  
+  .container img {
+    top:5px ;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .uni-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .container:hover .uni-overlay {
+    opacity: 1;
+  }
+  
+  .ofer-link {
+    text-decoration: none;
+    position: absolute;
+    top:77%; /* para decir cuento baja*/
+  }
+  
+  .ofer-container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    left: 3%;
+  }
+  
+  .ofer-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    left:70px;
+  }
+  
+  .image-ofer-overlay {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-ofer-container:hover .image-overlay {
+    opacity: 1;
+  }
+  
+  .ofer-container {
+  position: absolute;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+   left:880px;/* para mover a la derecha*/
+  
+  }
+  
+  .ofer-container img {
+    top:5px ;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .ofer-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .ofer-container:hover .uni-overlay {
+    opacity: 1;
+  }
+ 
+  
+  .hom{
+    position:absolute;
+    top: 120%;
+    left: 60px;
+  }
+  .hombre{
+    padding: 3px 50px;
+    font-size: 16px;
+  }
+  .muj{
+    position:absolute;
+    top: 120%;
+    left: 490px;
+  }
+  .mujer{
+    padding: 64.5px 0.2px;
+    font-size: 16px;
+  }
+  .acce{
+    position:absolute;
+    top: 120%;
+    left: 938px;
+  }
+  .accesorio{
+    padding: 61px 20px;
+    font-size: 16px;
+  }
+  .carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    width: 300%;
+  }
+  
+  .carousel-slide img {
+    width: 170px;
+    height: 160px;
+  }
+  
+  .carousel-prev,
+  .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .carousel-prev {
+    left: 10px;
+  }
+  
+  .carousel-next {
+    right: 10px;
+  }
+  
+  .video{
+    position: absolute;
+    top: 1180px;
+    left: 200px;
+    
+   
+  }

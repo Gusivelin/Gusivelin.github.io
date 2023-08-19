@@ -1,0 +1,64 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family:Arial,sans-serif ;
+  background-image: linear-gradient(rgba(120, 120, 121, 0.75), rgba(120, 120, 121, 0.75)), url(img/fond2.jpg);
+  height: 90vh;
+  background-size:cover;
+
+}
+.html{
+    height: 100%;
+}
+.body{
+    background: linear-gradient(white,#F5EB0F);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #F5EB0F;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ddd;
+  }
+  .mod1{
+    position:absolute;
+    top: 130px;
+    left:60px;
+  }
+  .car{
+    position:absolute;
+    top: 25px;
+    left:300px; 
+  }
+  .mod2{
+    position:absolute;
+    top: 130px;
+    left:390px;
+
+  }
+  .mod3{
+    position:absolute;
+    top: 130px;
+    left: 800px;
+  }
+  .mod4{
+    position:absolute;
+    top:350px;
+    left:60px;
+  }
